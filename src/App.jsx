@@ -28,6 +28,7 @@ import NegativeLead from './Pages/NegativeLead';
 import  Calander from './Pages/Calander'
 import PendingLeads from './Pages/PendingLeads';
 import EmployeeTagRequest from './Pages/EmployeeTagRequest';
+import AvailableLeadsPage from './Pages/EnquiryForm';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route  path='/card' element={<DynamicCard/>}/>
           <Route  path='/calender' element={<Calander/>}/>
           <Route  path='/pending' element={<PendingLeads/>}/>
+          <Route  path='/enq-form' element={<AvailableLeadsPage />}/>
           {/* -------------------------------------------- */}
           <Route  path='/priority' element={<Priority/>}/>
           <Route  path='/source' element={<Source/>}/>

@@ -65,6 +65,14 @@ const Dashboard = ({ children }) => {
       action: "openModal"
     },
     { 
+      label: "Enquiry Form", 
+      path: '/enq-form', 
+      icon: "Info",
+      exact: true
+
+      
+    },
+    { 
       label: "Pending Leads", 
       path: "/pending", 
       icon: "Info",
